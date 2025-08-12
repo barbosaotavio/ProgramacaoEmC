@@ -13,7 +13,7 @@ int main(){
 
     printf("Digite a sua altura:");
     scanf("%f", &altura);
-    printf("A sua altura é:%.2f\n", altura);
+    printf("A sua altura é:%f\n", altura);
 
     printf("Digite a primeira letra do seu nome:");
     scanf(" %c", &opcao);

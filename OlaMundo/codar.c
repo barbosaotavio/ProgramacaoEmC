@@ -19,7 +19,7 @@ int main(){
     scanf("%d", &matricula);
 
     printf("Nome do aluno: %s - Matricula: %d - ", nome, matricula);
-    printf("Idade: %d - altura: %f", idade, altura );
+    printf("Idade: %d - altura: %.2f", idade, altura );
 
     return 0;
 }
