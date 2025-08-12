@@ -15,4 +15,11 @@ int main(){
     scanf("%f", &altura);
     printf("A sua altura é:%f\n", altura);
 
+    printf("Digite a primeira letra do seu nome:");
+    scanf(" %c", &opcao);
+    printf("A primeira letra do seu nome é: %c\n", opcao);
+
+    printf("Digite o seu nome:");
+    scanf("%s", nome);
+    printf("O seu nome é: %s\n", nome);
 }
