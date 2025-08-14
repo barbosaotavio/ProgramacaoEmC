@@ -5,18 +5,18 @@ int main(){
     char estado[20] = "RJ";
     int codigo = 01;
     char cidade[50] = "Itaboraí";
-    float populacao = 43532;
+    float populacao = 43.532;
     float area = 1512.55;
-    float pib = 752.42;
+    float pib = 752.422;
     int pontost = 31;
 
     printf("Carta. %s\n", carta);
     printf("Estado: %s \n", estado);
     printf("Código da carta: %d\n", codigo);
     printf("Cidade: %s\n", cidade);
-    printf("População da cidade: %f \n", populacao);
-    printf("Area da cidade: %f\n", area);
+    printf("População da cidade: %.3f \n", populacao);
+    printf("Area da cidade: %.4f\n", area);
     printf("PIB: %f\n",pib);
-    printf("Pontos turísticos da cidade: %d\n");
+    printf("Pontos turísticos da cidade: %d\n",pontost);
 }
 
