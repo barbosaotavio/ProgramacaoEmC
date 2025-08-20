@@ -42,7 +42,4 @@ int main(){
     resultado = --numero1;
     printf("Apos pré-decremento - Numero1: %d - resultado: %d\n", numero1, resultado);
 
-
-
-
 }

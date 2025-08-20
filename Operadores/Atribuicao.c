@@ -15,16 +15,16 @@ int main(){
     resultado = 10;
     printf("resultado %d\n", resultado);
 
-    resultado += 50;
+    resultado += 50; // resultado passou a valer 60
     printf("resultado %d\n", resultado);
 
-    resultado -= 5;
-    printf("resultado %d\n", resultado);
+    resultado -= 5; // resultado passou a valer 55
+    printf("resultado %d\n", resultado); 
 
-    resultado *= 10;
-    printf("resultado %d\n", resultado);
+    resultado *= 10; // resultado passou a valer 550
+    printf("resultado %d\n", resultado); 
 
-    resultado /= 5;
-    printf("resultado %d\n", resultado);
+    resultado /= 5; // resultado passou a valer 110
+    printf("resultado %d\n", resultado); 
 
 }
