@@ -1,6 +1,6 @@
 #include <stdio.h>
  
-int main() {
+// int main() {
     // int a = 10;
     // int b = 5;
  
@@ -28,13 +28,26 @@ int main() {
  
     // return 0;
 
-    int numero;
+    // int numero;
 
-    printf("Digite um número:");
-    scanf("%d", &numero);
-    if(numero %2 == 0) {
-        printf("o numero é Par");
-        } else
-        printf("O numero é Impar");
+    // printf("Digite um número:");
+    // scanf("%d", &numero);
+    // if(numero %2 == 0) {
+    //     printf("o numero é Par");
+    //     } else
+    //     printf("O numero é Impar");
+    //}
 
-}
+    int main(){
+
+        char pais[30] = "Brasil";
+
+        printf("Onde vc mora ?" );
+        scanf("%s", pais);
+
+        if(pais == "Brasil"){
+            printf("vc é brasileiro!");
+        } else 
+            printf("vc é estrangeiro!");
+
+    }
