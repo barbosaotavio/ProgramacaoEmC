@@ -38,16 +38,15 @@
     //     printf("O numero é Impar");
     //}
 
-    int main(){
+    // int main(){
 
-        char pais[30] = "Brasil";
+    //     char pais[30] = "Brasil";
 
-        printf("Onde vc mora ?" );
-        scanf("%s", pais);
+    //     printf("Onde vc mora ?" );
+    //     scanf("%s", pais);
 
-        if(pais == "Brasil"){
-            printf("vc é brasileiro!");
-        } else 
-            printf("vc é estrangeiro!");
-
-    }
+    //     if(pais == "Brasil"){
+    //         printf("vc é brasileiro!");
+    //     } else 
+    //         printf("vc é estrangeiro!");
+    // }
