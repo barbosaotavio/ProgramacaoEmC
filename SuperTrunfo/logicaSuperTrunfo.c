@@ -40,24 +40,37 @@ int main() {
     // Comparações estilo Super Trunfo
     printf("=== RESULTADOS DO SUPER TRUNFO ===\n");
 
+    int pontosCarta1 = 0;
+    int pontosCarta2 = 0;
+
+    // População
     printf("População: ");
-    if (populacao1 > populacao2) printf("%s vence!\n", carta1);
-    else if (populacao1 < populacao2) printf("%s vence!\n", carta2);
+    if (populacao1 > populacao2) { printf("%s vence!\n", carta1); pontosCarta1++; }
+    else if (populacao1 < populacao2) { printf("%s vence!\n", carta2); pontosCarta2++; }
     else printf("Empate!\n");
 
+    // Densidade Populacional
     printf("Densidade Populacional: ");
-    if (densidade1 > densidade2) printf("%s vence!\n", carta1);
-    else if (densidade1 < densidade2) printf("%s vence!\n", carta2);
+    if (densidade1 > densidade2) { printf("%s vence!\n", carta1); pontosCarta1++; }
+    else if (densidade1 < densidade2) { printf("%s vence!\n", carta2); pontosCarta2++; }
     else printf("Empate!\n");
 
+    // PIB per Capita
     printf("PIB per Capita: ");
-    if (pibPerCapita1 > pibPerCapita2) printf("%s vence!\n", carta1);
-    else if (pibPerCapita1 < pibPerCapita2) printf("%s vence!\n", carta2);
+    if (pibPerCapita1 > pibPerCapita2) { printf("%s vence!\n", carta1); pontosCarta1++; }
+    else if (pibPerCapita1 < pibPerCapita2) { printf("%s vence!\n", carta2); pontosCarta2++; }
     else printf("Empate!\n");
 
+    // Pontos Turísticos
     printf("Pontos Turísticos: ");
-    if (pontost1 > pontost2) printf("%s vence!\n", carta1);
-    else if (pontost1 < pontost2) printf("%s vence!\n", carta2);
+    if (pontost1 > pontost2) { printf("%s vence!\n", carta1); pontosCarta1++; }
+    else if (pontost1 < pontost2) { printf("%s vence!\n", carta2); pontosCarta2++; }
+    else printf("Empate!\n");
+
+    // Exibe a carta vencedora geral
+    printf("\n=== CARTA VENCEDORA GERAL ===\n");
+    if (pontosCarta1 > pontosCarta2) printf("%s\n", carta1);
+    else if (pontosCarta2 > pontosCarta1) printf("%s\n", carta2);
     else printf("Empate!\n");
 
     return 0;
