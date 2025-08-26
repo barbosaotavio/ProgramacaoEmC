@@ -16,6 +16,14 @@ int main(){
     printf("numero 3 == numero4: %d\n", (int)numero3 == numero4);
 
     // Neste caso foi usado o (int) para fazer a  conversão explicita, descartando a parte decimal
+
+
+    int num = 10;
+    float result = 10.0;
+
+    int comparison = (float)num == result;
+
+    printf("num == result: %d\n", comparison);
     
 
 }
