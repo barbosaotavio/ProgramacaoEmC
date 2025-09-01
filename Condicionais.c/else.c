@@ -7,7 +7,9 @@ int main(){
 
     // if(temperatura1 < temperatura2){
     //     printf("Está calor!");
-    // } else printf("Está frio!");
+    // } else{
+    //     printf("Está frio!");
+    // } 
 
 
         // -------------------------- //
@@ -17,7 +19,9 @@ int main(){
 
     // if(banana < laranja){
     //     printf("Tem mais banana!");
-    // } else printf("Tem mais laranja!");
+    // } else{
+    //     printf("Tem mais laranja!");
+    // } 
 
         // -------------------------- //
 
@@ -25,17 +29,21 @@ int main(){
     
     // if(numero % 2 == 0){
     //     printf("O número é PAR!");
-    // }else printf("O número é ÍMPAR");
+    // }else{
+    //     printf("O número é ÍMPAR");
+    // } 
 
         //--------------------------- //
 
-    int numero = 30, resultado;
+    int numero = 35, resultado;
 
     resultado = numero % 2;
         printf("O valor da variável resultado é: %d\n", resultado);
 
     if(resultado == 0){
         printf("O número é PAR!");
-    } else printf("O número é ÍMPAR!");  
+    } else{
+        printf("O número é ÍMPAR!");
+    }
 
 }
