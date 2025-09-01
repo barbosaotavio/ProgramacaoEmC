@@ -8,15 +8,19 @@ int main(){
     //     printf("O número é par!");
     // }
 
-    int numero = 10, resultado;
+    // int numero = 10, resultado;
     
-    resultado = numero % 2;
-    printf("A variável resultado é: %d\n", resultado);
+    // resultado = numero % 2;
+    // printf("A variável resultado é: %d\n", resultado);
 
-    if( resultado == 0){
-        printf("O número é par!");
+    // if( resultado == 0){
+    //     printf("O número é par!");
+    // }
+
+    int estoque = 37;
+
+    if(estoque < 50){
+        printf("Estoque baixo!\n");
     }
-
-
 
 }
