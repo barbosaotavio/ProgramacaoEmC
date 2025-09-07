@@ -24,12 +24,12 @@ int main(){
     if(umidade > 50){
         printf("Umidade elevada.\n");
     } else{
-        printf("A temperatura está dentro dos parâmetros\n");
+        printf("A temperatura está dentro dos parâmetros.\n");
     }
 
     if(estoque < estoqueMinimo){
         printf("Estoque abaixo do mínimo.\n");
     } else{
-        printf("Estoque normal.\n");
+        printf("Estoque normal!\n");
     }
 }
