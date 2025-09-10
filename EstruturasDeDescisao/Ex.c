@@ -2,7 +2,7 @@
 
 int main(){
 
-    int idade, renda, dependentes;
+     int idade, renda, dependentes;
 
     printf("Digite sua idade:\n");
     scanf("%d", &idade);
@@ -13,7 +13,12 @@ int main(){
     printf("DIigta suas depêndencias:\n");
     scanf("%d", &dependentes);
 
-    if(idade >= 18 && idade >= 65);
+     if(idade >= 18 && idade < 65){
+          printf("")
+     }else{
+          printf("você não atende ao critério idade.\n");
+     }
 
-}
+    }
+
        
