@@ -24,9 +24,10 @@ int main(){
         // Testar a condição se a nota for >= 0 e <= 10
 
         if ( (nota1 >= 0 && nota1 <= 10) && (nota2 >= 0 && nota2 <= 10) ){
-            printf("Entrada correta\n");
+            media = (nota1 + nota2) / 2;
+            printf("A média é: %.2f", media);
         }else{
-            printf("Entrada com valores errados!\n");
+            printf("Entrada com valores errados de notas!\n");
         }
        
         
@@ -34,6 +35,9 @@ int main(){
 
     case 2:
         printf("Determinar Status\n");
+        printf("Entrar com a média: ");
+        scanf("%f", &media);
+        media >= 5 ? printf("APROVADO!\n") : printf("REPROVADO!\n");
         break;
 
     case 3:
