@@ -29,8 +29,6 @@ int main(){
         }else{
             printf("Entrada com valores errados de notas!\n");
         }
-       
-        
         break;
 
     case 2:
